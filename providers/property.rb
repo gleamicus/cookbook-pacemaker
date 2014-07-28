@@ -18,7 +18,7 @@
 #
 
 this_dir = ::File.dirname(__FILE__)
-require ::File.expand_path('../libraries/pacemaker/cib_object', this_dir)
+require ::File.expand_path('../libraries/includes', this_dir)
 
 action :create do
   name = new_resource.name
